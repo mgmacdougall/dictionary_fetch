@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.word-item > h4 {
+  text-transform: capitalize;
+  font-size: larger;
+}
+
+section {
+  display: flex;
+  max-width: 900px;
+  margin: auto 0;
+}
+
+#word-search {
+  margin-left: auto;
+  margin-right: auto;
+}
